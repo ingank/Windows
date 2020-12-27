@@ -1,10 +1,18 @@
-# Cortana vom PC verbannen
+# Cortana deaktivieren
 
-## Microsoft Windows 10 Version 2004
+```
+foo.reg
+```
+```
+Windows Registry Editor Version 5.00
 
-* Rechtsklick: *Windows-Logo*
-* Wählen: *Windows Power Shell (Administrator)*
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
+"DisableWebSearch"=dword:00000001
+"AllowSearchToUseLocation"=dword:00000000
+"ConnectedSearchUseWeb"=dword:00000000
+"ConnectedSearchPrivacy"=dword:00000003
 ```
-Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
-```
-* PC neu starten
+
+* `foo.reg` mit Doppelklick in Registry importieren
+* Windows neu starten
