@@ -1,5 +1,8 @@
 # Cortana vom PC verbannen
 
+**Achtung**: gilt bis *Microsoft Windows Version 1902*
+
+
 * Rechtsklick: *Windows-Logo*
 * Wählen: *Windows Power Shell (Administrator)*
 
