@@ -1,8 +1,7 @@
 # Cortana deaktivieren
 
-```
-foo.reg
-```
+* Textdatei `foo.reg` mit folgendem Inhalt erstellen:
+
 ```
 Windows Registry Editor Version 5.00
 
