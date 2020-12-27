@@ -1,6 +1,6 @@
 # Cortana vom PC verbannen
 
-## Microsoft Windows Version 2006
+## Microsoft Windows 10 Version 2004
 
 * Rechtsklick: *Windows-Logo*
 * Wählen: *Windows Power Shell (Administrator)*
