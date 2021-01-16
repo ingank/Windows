@@ -88,4 +88,4 @@ DISKPART> exit
 * Haken bei Unterordner entfernen
 * Verzeichnisstruktur wiederherstellen: **Absolute Pfadangaben**
 * Klicken: **OK**
-* Wenn 100%: 
+* Wenn 100%: **Schließen**
