@@ -1,4 +1,4 @@
-# Einen Windows 10 Installationsdatenträger von Hand erstellen
+# Einen Windows 10 Bootstick von einer ISO-Datei erstellen
 
 Diese Schritte werden auf einem *aktivierten* Windows 10 nacheinander durchgeführt.
 
