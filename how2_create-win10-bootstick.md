@@ -4,26 +4,26 @@ Diese Schritte werden auf einem *aktivierten* Windows 10 nacheinander durchgefü
 
 ## ISO-Datei des Installationsdatenträgers herunterladen
 
-* In Microsoft Edge: [Hier](https://www.microsoft.com/de-de/software-download/windows10) das Media Creation Tool herunterladen
-* Die heruntergeladene Datei ausführen
-* Die Warnung der Benutzerkontensteuerung mit **Ja** bestätigen
-* Lizensbedingungen **Akzeptieren**
+* Herunterladen: [**Media Creation Tool**](https://www.microsoft.com/de-de/software-download/windows10)
+* Ausführen: heruntergeladene Datei
+* Bestätigen: Warnung der Benutzerkontensteuerung mit **Ja**
+* Bestätigen: Lizensbedingungen mit **Akzeptieren**
 * Auswählen: **Installationsmedien (....)**
-* Klicken: **Weiter**
-* Die für das Installationsmedium gewünschte Edition (32/64 Bit) auswählen
-* Klicken: **Weiter**
+* Bestätigen: **Weiter**
+* Auswählen: Die für das Installationsmedium gewünschte Edition (32/64 Bit)
+* Bestätigen: **Weiter**
 * Auswählen: **ISO-Datei**
 * Festlegen: Ort und Name der ISO-Datei
-* Klicken: **Speichern**
-* Fortschrittsanzeige: **Windows 10 wird heruntergeladen**
-* Wenn 100%, dann Klicken: **Weiter**
-* Klicken: **Fertig stellen**
+* Bestätigen: **Speichern**
+* Beobachten: Fortschrittsanzeige **Windows 10 wird heruntergeladen**
+* Wenn 100%, dann bestätigen: **Weiter**
+* Bestätigen: **Fertig stellen**
 
 ## Installationsdatenträger vorbereiten
 
-* USB-Stick einstecken
-* In der Windows-Suche **diskpart** eingeben und mit **<ENTER>** bestätigen
-* Die Warnung der Benutzerkontensteuerung mit **Ja** bestätigen
+* Einlegen: **USB-Stick**
+* In der Windows-Suche eingeben: **diskpart**, mit **\<ENTER\>** bestätigen
+* Bestätigen: Warnung der Benutzerkontensteuerung mit **Ja**
 * Alle Laufwerke anzeigen:
 ```
 DISKPART> list disk
@@ -35,7 +35,8 @@ DISKPART> list disk
   Datenträger 2    Online         7663 MB      0 B
 ```
 
-* Die Datenträgernummer (*2*) des mit dem USB-Stick verbundenen Laufwerks per *gesundem Menschenverstand* ermitteln
+* Die Datenträgernummer des Datenträgers mit der Größe des USB-Sticks ermitteln
+* Im hier gezeigten Beispiel ist die Datenträgernummer = 2
 * Das entsprechende Laufwerk auswählen:
 
 ```
@@ -81,11 +82,17 @@ DISKPART> exit
 
 ## ISO-Datei auf Stick übertragen
 
-* Das Tool *7-zip* downloaden und installieren
-* Im Windows-Explorer: Rechtsklick auf ISO-Datei
-* Gehe zu: **7-Zip > Dateien entpacken...**
-* Entpacken nach: USB-Laufwerk
-* Haken bei Unterordner entfernen
-* Verzeichnisstruktur wiederherstellen: **Absolute Pfadangaben**
-* Klicken: **OK**
-* Wenn 100%: **Schließen**
+* Herunterladen: [7-Zip](https://www.7-zip.de/)
+* Installieren: **7-zip**
+* Im Windows-Explorer: Rechtsklick auf die Windows 10 ISO-Datei, dann weiter:
+  * Gehe zu: **7-Zip >**
+  * Gehe zu: **Dateien entpacken...**
+* Im Tool 7-Zip:
+  * Entpacken nach: **USB-Laufwerk**
+  * Deaktivieren: \[ \] Unterordner entfernen
+  * Auswählen: **Absolute Pfadangaben** bei *Verzeichnisstruktur wiederherstellen:*
+  * Bestätigen: **OK**
+  * Beobachten: Fortschrittsanzeige
+  * Wenn 100%, bestätigen: **Schließen**
+
+Ab jetzt ist der Bootstick gebrauchsfertig.
