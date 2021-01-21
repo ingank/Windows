@@ -11,3 +11,9 @@ Enthaltene Betriebssysteme:
 * Windows 10 Setup (32-Bit/64-Bit)
 * Windows RE (Windows Recovery Environment)
 * Windows PE (Windows Preinstallation Environment)
+
+Voraussetzungen:
+
+* Aktiviertes Windows 10
+* USB-Speicherstick >= 32 GiB
+* Internetanbindung
