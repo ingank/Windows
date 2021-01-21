@@ -1,10 +1,10 @@
 # Windows 10 Multiboot Stick
 
-Unterstützte Firmwaremodule:
+Unterstützte UEFI-Protokolle:
 
-* UEFI BIOS Legacy Boot
-* UEFI MBR/ESP Boot (USB-Boot-Stick)
-* UEFI Secure Boot
+* BIOS Legacy Boot
+* MBR/ESP Boot
+* Secure Boot
 
 Enthaltene Betriebssysteme:
 
@@ -14,6 +14,7 @@ Enthaltene Betriebssysteme:
 
 Voraussetzungen:
 
+* UEFI-Plattform
 * Aktiviertes Windows 10
 * USB-Speicherstick >= 32 GiB
 * Internetanbindung
