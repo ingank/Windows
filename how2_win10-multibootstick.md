@@ -18,3 +18,8 @@ Voraussetzungen:
 * Aktiviertes Windows 10
 * USB-Speicherstick >= 32 GiB
 * Internetanbindung
+
+## Quellen
+
+* https://www.uefi.org/specifications
+* https://www.microsoft.com/de-de/software-download/windows10
