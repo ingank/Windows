@@ -53,7 +53,7 @@ DISKPART> format fs=fat32 label="MULTIBOOT" quick
 DISKPART> assign
 DISKPART> create partition primary
 DISKPART> format fs=ntfs label="MULTIDATA" quick
-ISKPART> assign
+DISKPART> assign
 ```
 
 Das Boot-Medium ist jetzt zum Aufspielen der Software vorbereitet.
