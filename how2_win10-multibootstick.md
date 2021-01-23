@@ -54,6 +54,7 @@ DISKPART> assign
 DISKPART> create partition primary
 DISKPART> format fs=ntfs label="MULTIDATA" quick
 DISKPART> assign
+DISKPART> exit
 ```
 
 Das Boot-Medium ist jetzt zum Aufspielen der Software vorbereitet.
