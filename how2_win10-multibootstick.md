@@ -57,7 +57,20 @@ DISKPART> assign
 DISKPART> exit
 ```
 
-Das Boot-Medium ist jetzt zum Aufspielen der Software vorbereitet.
+Das Boot-Medium ist jetzt zum Aufspielen der Software vorbereitet und sollte folgende Struktur aufweisen:
+
+- Partitionsschema: MBR
+- Erste Primäre Partition:
+
+  - Label: `MULTIBOOT`
+  - Größe: 8000 MiB
+  - Format: FAT32
+
+- Zweite Primäre Partition:
+
+  - Label: `MULTIDATA`
+  - Größe: der Rest des Datenträgers
+  - Format: NTFS
 
 ## Quellen
 
