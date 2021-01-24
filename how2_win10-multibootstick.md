@@ -72,6 +72,43 @@ Das Boot-Medium ist jetzt zum Aufspielen der Software vorbereitet und sollte fol
   - Größe: der Rest des Datenträgers
   - Format: NTFS
 
+## Betriebssysteme
+
+In diesem Schritt werden die Betriebsystemabbbilder auf den lokalen Rechner geladen.
+
+### Windows 10 Setup
+
+- [Hier](https://www.microsoft.com/de-de/software-download/windows10) das _Media Creation Tool_ herunterladen
+- Heruntergeladene Datei ausführen
+- Benutzerdialog mit _Ja_ bestätigen
+- Lizenzbedingungen _Akzeptieren_
+- Dialog _Wie möchten Sie vorgehen?_ :
+
+  - _Installationsmedien (USB...)_ auswählen
+  - mit _Weiter_ bestätigen
+
+- Dialog _Sprache, Architektur und Edition_ :
+
+  - _Empfohlene Optionen für disen PC verwenden_ deaktivieren
+  - _Architektur_ : _Beide_ auswählen
+  - mit _Weiter_ bestätigen
+
+- Dialog _Zu verwendendes Medium auswählen_ :
+
+  - _ISO-Datei_ auswählen
+  - mit _Weiter_ bestätigen
+
+- Dialog _Pfad auswählen_ :
+
+  - Pfad zum Speichern der Datei `Windows.iso` auswählen
+  - mit _Speichern_ bestätigen
+
+- Warten, bis die ISO-Datei heruntergeladen wurde
+
+- Dialog _ISO-Datei auf eine DVD brennen_ :
+
+  - mit _Fertigstellen_ beenden
+
 ## Quellen
 
 - <https://www.uefi.org/specifications>
