@@ -109,6 +109,10 @@ In diesem Schritt werden die Betriebsystemabbbilder auf den lokalen Rechner gela
 
   - mit _Fertigstellen_ beenden
 
+### Windows RE (Windows Recovery Environment)
+
+Das _Windows Recovery Environment_ ist im _Windows 10 Setup_ - Abbild enthalten.
+
 ## Quellen
 
 - <https://www.uefi.org/specifications>
