@@ -113,6 +113,8 @@ In diesem Schritt werden die Betriebsystemabbbilder auf den lokalen Rechner gela
 
 Das _Windows Recovery Environment_ ist im _Windows 10 Setup_ - Abbild enthalten.
 
+### Windows PE (Windows Preinstallation Environment)
+
 ## Quellen
 
 - <https://www.uefi.org/specifications>
