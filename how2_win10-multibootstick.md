@@ -151,8 +151,23 @@ Die fertige ISO-Datei steht nun im Ordner `c:\WinPE` bereit
   - `Windows.iso` doppelklicken um Installationsmedium als neues virtuelles Laufwerk einzubinden
   - Zum entsprechenden Laufwerk wechseln (Bezeichner: `ESD-ISO`)
   - Ordner `x64` und `x86` markieren
-  - Gehe zu Ribbon `Start`, dann `Auswahl umkehren`
-  - Gehe zu Ribbon _Start_, dann _Kopieren nach_, dann _Speicherort auswählen..._
+  - Gehe zu Ribbon `Start` // `Auswahl umkehren`
+  - Gehe zu Ribbon `Start` // `Kopieren nach`
+    - `Speicherort auswählen...`
+    - Laufwerk `MULTIBOOT` auswählen
+    - Auf `Kopieren` klicken
+  - Ordnerstruktur erstellen:
+    - Laufwerke `MULTIBOOT` und `MULTIDATA` jeweils:
+      - `\x64\Sources`
+      - `\x86\Sources`
+  - Dateien kopieren:
+
+| Quell-Laufwerk | Quelldatei(en) | Ziel-Laufwerk | Zielordner |
+|-|-|-|-|
+|ESD-ISO|`\x64\Sources\boot.wim`|MULTIBOOT|`\x64\Sources\`|
+|ESD-ISO|`\x86\Sources\boot.wim`|MULTIBOOT|`\x86\Sources\`|
+|ESD-ISO|Alle Dateien aus `\x64\Sources\` außer `boot.wim`|MULTIDATA|`\x64\Sources\`|
+|ESD-ISO|Alle Dateien aus `\x86\Sources\` außer `boot.wim`|MULTIDATA|`\x86\Sources\`|
 
 ## Quellen
 
