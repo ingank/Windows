@@ -64,7 +64,7 @@ Das Boot-Medium ist jetzt zum Aufspielen der Software vorbereitet und sollte fol
   - Größe: der Rest des Datenträgers
   - Format: NTFS
 
-## Betriebssysteme
+## Betriebssysteme erzeugen
 
 In diesem Schritt werden die Betriebsystemabbbilder auf den lokalen Rechner geladen.
 
@@ -141,6 +141,18 @@ In dieser Anleitung wird der Windows PE Bausatz des _Magazin für Computer und T
   - _Create ISO_ klicken
 
 Die fertige ISO-Datei steht nun im Ordner `c:\WinPE` bereit
+
+## Betriebssysteme auf Stick spielen
+
+### Windows 10
+
+- Windows Explorer öffnen (`[⊞ Win]` + `[E]`)
+- Im Windows Explorer:
+  - `Windows.iso` doppelklicken um Installationsmedium als neues virtuelles Laufwerk einzubinden
+  - Zum entsprechenden Laufwerk wechseln (Bezeichner: `ESD-ISO`)
+  - Ordner `x64` und `x86` markieren
+  - Gehe zu Ribbon `Start`, dann `Auswahl umkehren`
+  - Gehe zu Ribbon _Start_, dann _Kopieren nach_, dann _Speicherort auswählen..._
 
 ## Quellen
 
