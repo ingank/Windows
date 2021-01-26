@@ -146,24 +146,18 @@ Die fertige ISO-Datei steht nun im Ordner `c:\WinPE` bereit
 
 ### Windows 10
 
-- Windows Explorer öffnen (`[⊞ Win]` + `[E]`)
-- Im Windows Explorer:
-  - `Windows.iso` doppelklicken um Installationsmedium als neues virtuelles Laufwerk einzubinden
-  - Zum entsprechenden Laufwerk wechseln (Bezeichner: `ESD-ISO`)
-  - Ordner `x64` und `x86` markieren
-  - Gehe zu Ribbon `Start` // `Auswahl umkehren`
-  - Gehe zu Ribbon `Start` // `Kopieren nach`
-    - `Speicherort auswählen...`
-    - Laufwerk `MULTIBOOT` auswählen
-    - Auf `Kopieren` klicken
-  - Ordnerstruktur erstellen:
-    - Laufwerke `MULTIBOOT` und `MULTIDATA` jeweils:
-      - `\x64\Sources`
-      - `\x86\Sources`
-  - Dateien kopieren:
+Ordnerstruktur erstellen:
+
+|Laufwerk/Partition|Ordner erstellen|
+|-|-|
+|`MULTIBOOT`|`\x64\Sources\`<br>`\x86\Sources\`|
+|`MULTIDATA`|`\x64\Sources\`<br>`\x86\Sources\`|
+
+Dateien kopieren:
 
 | Quell-Laufwerk | Quelldatei(en) | Ziel-Laufwerk | Zielordner |
 |-|-|-|-|
+|ESD-ISO|Alle Dateien und Ordner außer `\x64\` und `\x86\`|MULTIBOOT|`\`
 |ESD-ISO|`\x64\Sources\boot.wim`|MULTIBOOT|`\x64\Sources\`|
 |ESD-ISO|`\x86\Sources\boot.wim`|MULTIBOOT|`\x86\Sources\`|
 |ESD-ISO|Alle Dateien aus `\x64\Sources\` außer `boot.wim`|MULTIDATA|`\x64\Sources\`|
