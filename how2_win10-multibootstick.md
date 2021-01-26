@@ -135,7 +135,12 @@ In dieser Anleitung wird der Windows PE Bausatz des _Magazin für Computer und T
   - `PEBakeryLauncher.exe` nochmals starten
 - Im Programm PEBakery:
   - Auf _Verzeichnis mit den Windows-Installationsdateien festlegen_ klicken
-  - 
+  - ...
+  - In der Tools-Übersicht _Create ISO_ wählen
+  - Bei _Einfach_ : _Experte_ klicken
+  - _Create ISO_ klicken
+
+Die fertige ISO-Datei steht nun im Ordner `c:\WinPE` bereit
 
 ## Quellen
 
