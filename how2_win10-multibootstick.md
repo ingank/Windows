@@ -187,3 +187,4 @@ Dateien kopieren:
 
 - <https://www.uefi.org/specifications>
 - <https://www.microsoft.com/de-de/software-download/windows10>
+- <https://www.heise.de/ct/artikel/c-t-Notfall-Windows-2021-4954598.html>
