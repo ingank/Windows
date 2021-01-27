@@ -165,6 +165,24 @@ Dateien kopieren:
 
 ## Windows RE
 
+- 7-Zip von der Herstellerseite herunterladen und installieren
+---
+- Datei `MULTIDATA:\x64\Sources\install.esd` mit 7-Zip öffnen 
+- Rechtsklick auf die Datei `\1\Windows\System32\Recovery\Winre.wim`
+- `Kopieren nach...` wählen
+- Zielordner `MULTIBOOT:\x64\Sources\` wählen
+- `OK` klicken
+- `OK` klicken
+- 7-Zip schließen
+---
+- Datei `MULTIDATA:\x86\Sources\install.esd` mit 7-Zip öffnen 
+- Rechtsklick auf die Datei `\1\Windows\System32\Recovery\Winre.wim`
+- `Kopieren nach...` wählen
+- Zielordner `MULTIBOOT:\x86\Sources\` wählen
+- `OK` klicken
+- `OK` klicken
+- 7-Zip schließen
+
 ## Quellen
 
 - <https://www.uefi.org/specifications>
