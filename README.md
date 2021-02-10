@@ -1,3 +1,3 @@
 # Windows
 
-Der Deutsche Impfstoff für den Windows-Lockdown.
+Der Impfstoff für den Windows-Lockdown.
