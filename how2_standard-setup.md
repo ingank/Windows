@@ -13,9 +13,9 @@ Bei jeder Neuinstallation von Windows 10 sollte diese Liste geprüft und gepfleg
 
 ## Software installieren
 
-* 7-zip
-* DeskPins
-* Bitwarden
+* 7-zip [[-]](https://www.7-zip.de/download.html)
+* DeskPins [[-]](https://efotinis.neocities.org/deskpins/index.html)
+* Bitwarden (App)
 * TeamViewer
 * WiFi Analyzer (Matt Hafner)
   * Wenn mobiles Gerät
