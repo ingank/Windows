@@ -45,3 +45,4 @@ muss dafür die Tastenkombination `WINDOWS-TASTE + Druck` gesondert benutzt werd
 
 __Hinweis:__ Diese Variante erstellt mit der Tastenkombination `WINDOWS-TASTE + Druck`
 sowohl lokal als auch auf OneDrive den gewünschten Screenshot.
+
