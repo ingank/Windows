@@ -31,3 +31,4 @@ Nachteile:
 * Bei Rückabwicklung von Lizenzen oder Verschlüsselungen ist immer auch das Microsoft-Konto zu berücksichtigen
 * Intransparenzen, Inkonsistenzen und Ungenauigkeiten bei der Verwaltung der hinterlegten Kontendaten
 * Meistens keine explizite und eindeutige Löschmöglichkeit von hinterlegten Schlüsseln oder Lizenzen
+* 
