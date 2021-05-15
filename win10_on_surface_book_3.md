@@ -6,8 +6,8 @@ auch deren Partitionierung wird überschrieben.
 Die Speicherangaben dieser Anleitung beziehen sich auf ein Surface Book 3 mit 1 TB SSD Festplatte.
 
 Die USB-Maus sowie die USB-Tastatur werden benötigt,
-um während der Installation benötigte Nutzereingaben tätigen zu können,
-da zu diesem Zeitpunkt die eingebaute Tastatur und das Touchpad nicht erkannt werden..
+um während der Installation Nutzereingaben tätigen zu können,
+da zu diesem Zeitpunkt die eingebaute Tastatur und das Touchpad nicht erkannt werden.
 
 ## 1. Voraussetzungen
 * Ein Windows 10 Installationsmedium (USB-Stick)
