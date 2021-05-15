@@ -157,7 +157,5 @@ sudo apt install linux-surface-secureboot-mok
 * Wähle _Security // Change configuration // Microsoft only_
 * Bestätige mit _OK_
 * Wähle _Boot configuration_
-* In der Liste muss nun der neue Windows Boot Manager eingetragen und markiert sein
-* Deaktiviere den Eintrag _USB Storage_
+* In der Liste muss als einziger der Eintrag _ubuntu_ markiert sein
 * Wähle _Exit // Restart now_
-
