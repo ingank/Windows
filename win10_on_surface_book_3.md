@@ -161,3 +161,4 @@ sudo apt install linux-surface-secureboot-mok
 * Wähle _Boot configuration_
 * In der Liste muss als einziger der Eintrag _ubuntu_ markiert sein
 * Wähle _Exit // Restart now_
+
