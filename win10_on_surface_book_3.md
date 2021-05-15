@@ -5,14 +5,18 @@ auch deren Partitionierung wird überschrieben.
 
 Die Speicherangaben dieser Anleitung beziehen sich auf ein Surface Book 3 mit 1 TB SSD Festplatte.
 
+Die USB-Maus sowie die USB-Tastatur werden benötigt,
+um während der Installation benötigte Nutzereingaben tätigen zu können,
+da zu diesem Zeitpunkt die eingebaute Tastatur und das Touchpad nicht erkannt werden..
+
 ## 1. Voraussetzungen
 * Ein Windows 10 Installationsmedium (USB-Stick)
-* Aktuelle Surface Book 3 Treiber (ca. 1,5 GB als .msi-Datei) auch auf dem USB-Stick
+* Ein Ubuntu 20.04 LTS Installationsmedium (USB-Stick)
+* Aktuelle Surface Book 3 Treiber für Windows 10 (ca. 1,5 GB als .msi-Datei)
 * USB-Maus
 * USB-Tastatur
 
 ## 2. UEFI für Windows Installation vorbereiten
-
 * Surface Book ausschalten
 * Windows 10 Installationsmedium in einen freien USB-Port einstecken
 * Drücke und halte Lauter - Knopf
@@ -26,7 +30,6 @@ Die Speicherangaben dieser Anleitung beziehen sich auf ein Surface Book 3 mit 1 
 * Wähle _Exit // Restart now_
 
 ## 3. Windows 10 installieren
-
 * Das Windows 10 Installationsmedium startet
 * ein roter Streifen mit geöffnetem Schloßsymbol wird am oberen Bildschirmrand angezeigt
 * Das _Windows Setup_ wird angezeigt, verschiedene Spracheinstellungen können vorgenommen werden
@@ -80,7 +83,6 @@ Die Speicherangaben dieser Anleitung beziehen sich auf ein Surface Book 3 mit 1 
 * Warten, bis Festplatte entschlüsselt wurde
 
 ## 6. SSD Festplatte für Ubuntu vorbereiten
-* Windows 10 läuft noch
 * Rechtsklick auf `⊞` .. Datenträgerverwaltung
 * Rechtsklick auf Laufwerk `C:` .. _Volume verkleinern..._
 * Zu verkleinernder Speicherplatz: _750000_ MB
