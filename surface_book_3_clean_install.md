@@ -73,6 +73,7 @@ Weiters wird benötigt:
 * Warten, bis Installation beendet ist, der Bildschirm flackert immer wieder und schräge Töne sind aus dem Lautsprecher zu hören
 * Beendet ist die Installation, wenn der _Finish_ - Button erscheint
 * Klicke _Finish_
+* Windows 10 Installationsmedium aus dem Surface Book entnehmen
 * Klicke _Yes_ (Neustart)
 * Der Rechner startet neu
 * Jetzt folgende Hardware prüfen:
@@ -81,10 +82,22 @@ Weiters wird benötigt:
   * Tastatur
   * Microsoft Pen
 * Rechtsklick auf `⊞` .. Gerätemanager
-* Es sollten hier keine Geräte mit Warnmeldung gezeigt werden
-* Windows 10 Installationsmedium aus dem Surface Book entnehmen
+  * __keine Geräte__ mit Warnmeldung sollten gezeigt werden
 
-## 5. BitLocker deaktivieren
+## 5. Windows 10 aktivieren
+* WLAN aktivieren und einwählen
+* Klicke `⊞` .. `Einstellungen`
+* Wähle `Update und Sicherheit` .. `Aktivierung`
+* Windows aktivieren
+
+## 6. Restart mit Secure Boot
+* Windows neu starten
+* `Lauter - Taste` drücken und halten, bis der Rechner den UEFI-Startbildschirm zeigt
+* `Security` // `Change configuration` // `Microsoft only` wählen
+* `Exit` // `Restart now` wählen
+* Rechner bootet mittels UEFI Secure Boot
+
+## 7. BitLocker deaktivieren
 * Klicke `⊞` .. Einstellungen
 * Wähle _Update und Sicherheit // Geräteverschlüsselung // Ausschalten_
 * Bestätige mit _Ausschalten_
