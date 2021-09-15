@@ -102,3 +102,13 @@ Weiters wird benötigt:
 * Wähle _Update und Sicherheit // Geräteverschlüsselung // Ausschalten_
 * Bestätige mit _Ausschalten_
 * Warten, bis Festplatte entschlüsselt wurde
+
+## 8. Kleine Nacharbeiten
+Cortana deaktivieren:
+* Tastenkombination `⊞`+`R`
+* `regedit` eingeben und `Enter` drücken
+* Warnmeldung bestätigen
+* in der Adresszeile folgenden Pfad suchen:
+  * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Experience\AllowCortana`
+* den Schlüssel `value` auf `0` setzen
+* Rechner neu starten
