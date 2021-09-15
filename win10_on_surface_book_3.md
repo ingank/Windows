@@ -1,15 +1,22 @@
 # Windows 10 / Ubuntu 20.04 LTS - Clean Install auf Surface Book 3
 
-ACHTUNG: Die Systemfestplatte wird komplett gelöscht,
-auch deren Partitionierung wird überschrieben.
+Diese Anleitung bezieht sich auf:
+* ein Surface Book 3
+* mit 1 TB SSD Festplatte
+* verbunden mit Surface Dock 2
 
-Die Speicherangaben dieser Anleitung beziehen sich auf ein Surface Book 3 mit 1 TB SSD Festplatte.
+__ACHTUNG:__
 
-Die USB-Maus sowie die USB-Tastatur werden benötigt,
-um während der Installation Nutzereingaben tätigen zu können,
-da zu diesem Zeitpunkt die eingebaute Tastatur und das Touchpad nicht erkannt werden.
+* die Systemfestplatte wird komplett gelöscht
+* die Partitionierung wird überschrieben
+* persönliche Daten gehen verloren
 
-## 1. Voraussetzungen
+Weiters wird benötigt:
+* eine USB-Maus
+* eine USB-Tastatur
+* zwei USB-Sticks (8 GB oder mehr)
+
+## 1. Vorbreitung
 * Ein Windows 10 Installationsmedium (USB-Stick)
 * Ein Ubuntu 20.04 LTS Installationsmedium (USB-Stick)
 * Aktuelle Surface Book 3 Treiber für Windows 10 (ca. 1,5 GB als .msi-Datei)
