@@ -19,15 +19,15 @@ da zu diesem Zeitpunkt die eingebaute Tastatur und das Touchpad nicht erkannt we
 ## 2. UEFI für Windows Installation vorbereiten
 * Surface Book ausschalten
 * Windows 10 Installationsmedium in einen freien USB-Port einstecken
-* Drücke und halte Lauter - Knopf
-* Drücke gleichzeitig kurz An/Aus - Knopf
-* Halte Lauter - Knopf gedrückt, bis der Rechner den UEFI-Startbildschirm zeigt
-* Wähle _Security // Change configuration // None_
-* Bestätige mit _OK_
-* Wähle _Boot configuration_
-* Lösche alle Geräte und Bootloader aus der Liste, die ein Mülleimer-Symbol zeigen
-* Markiere nur den Eintrag _USB Storage_
-* Wähle _Exit // Restart now_
+* `Lauter - Taste` drücken und halten
+* `An/Aus - Taste` gleichzeitig kurz drücken
+* `Lauter - Taste` gedrückt halten, bis der Rechner den UEFI-Startbildschirm zeigt
+* `Security` // `Change configuration` // `None` wählen
+* mit `OK` bestätigen
+* `Boot configuration` wählen
+* alle Geräte und Bootloader aus der Liste löschen, die ein Mülleimer-Symbol zeigen
+* einzig den Eintrag `USB Storage` markieren
+* `Exit` // `Restart now` wählen
 
 ## 3. Windows 10 installieren
 * Das Windows 10 Installationsmedium startet
